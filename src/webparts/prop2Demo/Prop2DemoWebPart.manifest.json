@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "54177782-5af6-4a23-92fa-31fed7229b7f",
+  "alias": "Prop2DemoWebPart",
+  "componentType": "WebPart",
+
+ 
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "prop2Demo" },
+    "description": { "default": "prop2Demo description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "HelloWorld",
+      "multiline":"",
+      "checkbox":"",
+      "dropdown":"",
+      "toggle":""
+     }
+
+  }]
+}
